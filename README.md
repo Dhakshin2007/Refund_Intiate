@@ -79,6 +79,12 @@ python logistics.py
 g++ logistics.cpp -O2 -o optimize
 ./optimize 
 ```
+### **C (For Better Understanding)**
+
+```bash
+gcc logistics.c -o logistics -lm
+./logistics  
+```
 
 ### Sample Input Format
 
@@ -101,6 +107,7 @@ t1 t2 ... tm
 📦 Smart-Refund-Routing
 ├── logistics.py              # Python implementation
 ├── logistics.cpp             # C++ implementation
+├── logistics.c             # C implementation
 ├── Problem_Statement.pdf     # Business logic, diagrams & case studies
 └── README.md                 # You're reading it
 ```
